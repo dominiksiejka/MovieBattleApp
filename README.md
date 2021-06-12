@@ -4,7 +4,7 @@
 
 [**click live demo of the project**](https://dominiksiejka.github.io/BillSplitterApp)
 
-![MoviesBattleApp preview](./assets/billsplitter.jpg)
+![MoviesBattleApp preview](./assets/movies.jpg)
 
 ## Table of Contents
 
