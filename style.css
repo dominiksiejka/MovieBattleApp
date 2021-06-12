@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 2%,
+    rgba(29, 97, 253, 1) 49%,
+    rgba(252, 176, 200, 1) 98%
+  );
+  display: flex;
+  align-items: center;
+  height: 25vh;
+  color: white;
+}
+.container {
+  margin-top: 10vh;
+  width: 100%;
+}
+h2,
+i {
+  text-shadow: 0 0 6px black;
+  margin-left: 15px;
+  font-size: 30px;
+}
+header h2 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+#left-autocomplete,
+#right-autocomplete {
+  display: flex;
+  flex-direction: column;
+}
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+#right-summary,
+#left-summary {
+  margin-top: 20px;
+}
+input {
+  outline: none;
+  padding: 2px 0;
+  width: 25vw;
+}
+
+div.dropdown {
+  width: 300px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+.column {
+  width: 100%;
+  padding: 20px;
+}
+input {
+  width: 50%;
+}
+article.media {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+article.media p {
+  text-align: justify;
+}
+article.media .media-left {
+  width: 100%;
+}
+div.content {
+  min-height: 200px;
+}
+@media screen and (min-width: 500px) {
+  article.media .media-left {
+    width: inherit;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1250px) {
+  article.media .media-left {
+    margin: 0;
+  }
+  article.media {
+    flex-direction: row;
+  }
+  div.content {
+    min-height: initial;
+  }
+}
